@@ -1,0 +1,46 @@
+<?php if (!defined('BASEPATH'))     exit('No direct script access allowed');
+/*
+ *  Copyright 2014
+ * 
+ */
+
+/**
+ * dir2array Helper
+ *
+ * @author Daud Simbolon <daud.simbolon@gmail.com>
+ */
+
+
+if(!function_exists('dir2array'))
+{
+	function dir2array($dir, $separator = DIRECTORY_SEPARATOR, $paths = 'relative') 
+	{
+	    $result = array();
+	    $cdir = scandir($dir);
+	    foreach ($cdir as $key => $value)
+	    {
+	        if (!in_array($value, array(".", "..")))
+	        {
+	            if (is_dir($dir . $separator . $value))
+	            {
+	                $result[$value] = dir2array($dir . $separator . $value, $separator, $paths);
+	            }
+	            /*else
+	            {
+	                if ($paths == 'relative')
+	                {
+	                    $result[] = $dir . '/' . $value;                    
+	                }
+	                elseif ($paths == 'absolute')
+	                {
+	                    $result[] = base_url() . $dir . '/' . $value;
+	                }
+	            }*/
+	        }
+	    }
+	    return $result;
+	} 
+}// end function exists
+
+
+?>

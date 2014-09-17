@@ -1,0 +1,36 @@
+/* 
+    Created on : 22 Jan 14, 1:18:51
+    Author     : DAUD D. SIMBOLON <daud.simbolon@gmail.com>
+*/
+
+
+
+
+body {
+    padding-top: 70px;
+}
+
+
+.surat-error-text{
+    color: #F53535;
+    
+}
+
+
+.required-input{
+    color: #f53535;
+}
+
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+
+
+
+ #calendar {
+  width: 900px;
+  margin: 0 auto;
+  }

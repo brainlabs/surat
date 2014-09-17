@@ -1,0 +1,50 @@
+
+/* 
+    Created on : 02 Jun 14, 23:34:24
+    Author     : brainlabs
+*/
+
+
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  margin-top: 1px;
+  *margin-right: .3em;
+  line-height: 14px;
+  vertical-align:text-bottom;
+ // background-image: url("../img/glyphicons-halflings.png");
+  //background-position: 14px 14px;
+  background-repeat: no-repeat;
+}
+
+
+
+.icon-docx{
+    background-image: url("../img/docx-win-icon.png");
+}
+
+.icon-pdf{
+    background-image: url("../img/pdf-icon.png");
+}
+
+
+.icon-pdf{
+    background-image: url("../img/pdf-icon.png");
+}
+
+
+.icon-zip{
+    background-image: url("../img/zip-icon.png");
+}
+
+
+
+.icon-xlsx{
+    background-image: url("../img/xlsx-win-icon.png");
+}
+
+.icon-jpg{
+    background-image: url("../img/jpeg-icon.png");
+}
