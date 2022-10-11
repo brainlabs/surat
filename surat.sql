@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `instansi` (
 --
 
 INSERT INTO `instansi` (`nama_instansi`, `alamat_instansi`, `nama_pimpinan`, `email`, `website`, `logo`) VALUES
-('PT. CEMERLANG INDAH', 'JL. Jenderal Sudirman, No 20 A Blok G, No .Telp 0819-9082-1273 ', 'Daud D. Simbolon', 'daud.simbolon@gmail.com', '', '');
+('PT. CEMERLANG INDAH', 'JL. Jenderal Sudirman, No 20 A Blok G, No .Telp 0819-9082-1273 ', 'Contoh', 'contoh@gmail.com', '', '');
 
 -- --------------------------------------------------------
 
