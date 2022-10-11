@@ -1,6 +1,6 @@
 management Surat
 ======
-Cointoh hasil generate CI-GEN buatan saya
+Contoh hasil generate CI-GEN buatan saya
 
 
 Screenshoot :
